@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background:url(img/bright-wavy-background_52683-59613.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.todo-content{
+    background:url(img/abstract-wavy-shapes_1048-4740.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 85%;
+    height: auto;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 10px 0 10px rgba(190, 22, 134, 0.836);
+    border-radius: 0.5rem;    
+}
+
+.todo-content h1{
+    color: rgb(25, 33, 46);
+    text-decoration: underline;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom:1.3rem;
+}
+
+.todo-content input{
+    width: 60%;
+    font-family: inherit;
+    border-radius: 1rem;
+    border: 0.1rem solid rgb(120, 50, 129);
+    margin: 0.1rem;
+    padding: 0.1rem;
+    background-color: rgba(31, 70, 37, 0.705);
+}
+
+.todo-content button{
+    width: 25%;
+    font-size: 0.5rem;
+    height: 20px;
+    margin: 0.2rem;
+    padding: 0.01rem;
+    background-color: blue;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer   ;
+    color: white;
+}
+.todo-content button:active{
+    transform: rotateX(10deg) scale(0.98);
+    box-shadow: 01px 05px 10px rgba(36, 15, 221, 0.685);
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0.5rem;
+    border-bottom: 0.1rem solid black ;
+}
+li:last-child{
+    border-bottom: none;
+}
+
+.delbtnstyle{
+    background-color: red;
+    width: 25%;
+    height: 20px;
+    font-size: .2rem;
+    margin: 0.1rem;
+    padding: 0.6rem;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer   ;
+    color: white;
+}
