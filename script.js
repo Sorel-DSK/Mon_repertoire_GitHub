@@ -19,7 +19,7 @@ const btnAjouter=document.getElementById('btnAjouter')
             //cree un btn supprimer
             const delBtn=document.createElement('button')
             delBtn.textContent="Supprimer"
-            delBtn.classList.add('.delbtnstyle')
+            delBtn.classList.add('delbtnstyle')
             delBtn.addEventListener('click',()=>{
                 list.removeChild(li)
             })
@@ -27,8 +27,19 @@ const btnAjouter=document.getElementById('btnAjouter')
         }
     })
 
-   
+//les hebergeurs gratuits    
 // hostinger
 // netlifly
 // vercel
 // github page
+
+//stockage des taches dans le local storage du navigateur
+function ajoutTache() {
+  let numTache=document.getElementById();
+  let tache=document.getElementById();
+    localStorage.setItem(numTache,tache)
+}
+
+
+
+
